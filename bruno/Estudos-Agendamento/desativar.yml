@@ -1,0 +1,16 @@
+info:
+  name: desativar
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: http://localhost:8080/servicos/fda59395-5088-43e0-97c9-1ee212ad2930/desativar
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

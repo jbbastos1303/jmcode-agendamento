@@ -1,0 +1,16 @@
+info:
+  name: reativar
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: http://localhost:8080/servicos/cc331f03-5d4d-48b0-957d-bd9122a32117/reativar
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

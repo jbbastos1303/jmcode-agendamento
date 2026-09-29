@@ -1,0 +1,19 @@
+info:
+  name: PATCH parcial
+  type: http
+  seq: 4
+
+http:
+  method: PATCH
+  url: http://localhost:8080/servicos/44e22b63-369f-4af4-8533-c9f0ed547681
+  body:
+    type: json
+    data: '{"preco": "45.00"}'
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
